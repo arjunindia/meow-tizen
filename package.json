@@ -3,7 +3,7 @@
   "packageType":"mods",
   "appName":"meow-tizen",
   "description":"Watch cats live"
-  "websiteURL":"https://meow.camera/",
+  "websiteURL":"https://anitaku.pe/anime-list.html",
   "main":"index.js",
   "keys": ["MediaPlayPause"],
   "repository": {
