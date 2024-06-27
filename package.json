@@ -1,0 +1,11 @@
+{
+  "name": "@arjunindia/meow-tizen",
+  "packageType":"mods",
+  "appName":"meow-tizen",
+  "websiteURL":"https://meow.camera/",
+  "main":"index.js",
+  "keys": ["MediaPlayPause"],
+  "repository": {
+    "url": "https://github.com/arjunindia/meow-tizen"
+  }
+}
