@@ -2,6 +2,7 @@
   "name": "@arjunindia/meow-tizen",
   "packageType":"mods",
   "appName":"meow-tizen",
+  "description":"Watch cats live"
   "websiteURL":"https://meow.camera/",
   "main":"index.js",
   "keys": ["MediaPlayPause"],
