@@ -2529,7 +2529,12 @@
     };
   }
 })(window.jQuery);
-
+window.addEventListener('load', function() {
+document.head.innerHTML += `<style>
+    /* Add style to the focused elements */
+    :focus {
+      outline: 6px solid red;
+    } </style>`
 // Define navigable elements (anchors and elements with "focusable" class).
 window.SpatialNavigation.add({
     selector: 'a, .focusable, button, video, input'
@@ -2539,3 +2544,4 @@ window.SpatialNavigation.makeFocusable();
 
 // Focus the first navigable element.
 window.SpatialNavigation.focus();
+)}
